@@ -1,3 +1,8 @@
+/*
+=============
+Top HEADER
+=============
+*/
 
 
 .header {
@@ -8,14 +13,18 @@
     position: fixed;
 }
 .logo{
+	margin-left: 26%;
 	width:4em;
-	line-height: 5em;
+	
+	font-size: 4em;
+	font-weight: 700;
 	display: inline-block;
 }
 .nav{
-	margin-top: -45px;
+	margin-top: -48px;
 	width: 100%;
 	text-align: center;
+
 	}
 .nav ul{
 	display: inline-block;
@@ -33,8 +42,14 @@
 	text-transform: uppercase;
 	text-decoration: none;
 	font-weight: 700;
+	line-height: 2em;
 	font-family: sans-serif;
 }
 .nav ul li a:hover{
 	color:red;
+}
+.content{
+	padding-top: 70px;
+	margin-left: 70px;
+	margin-right: 70px;
 }
