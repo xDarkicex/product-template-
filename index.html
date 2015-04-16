@@ -2,24 +2,27 @@
 <html>
 <head>
 <title>New product Prototype</title>
+<!-- Will Remove once live -->
 <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+<!-- Will add in when live 
+<link rel="stylesheet" type="text/css" href="assets/css/main-dist.css">-->
 <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 </head>
 <body>
 <div class="header">
 <div class="logo">[Logo]</div>
 <div class="nav">
-<ul>
-<li><a href="#">"Link"</a></li>
-<li><a href="#">"Link"</a></li>
-<li><a href="#">"Link"</a></li>
-<li><a href="#">"Link"</a></li>
-<li><a href="#">"Link"</a></li>
-</ul>
+
+<a href="#">"Link"</a>
+<a href="#">"Link"</a>
+<a href="#">"Link"</a>
+<a href="#">"Link"</a>
+
 </div><!-- End Nav -->
 </div><!-- End Header -->
-
+<div id="placeholder"></div>
 <div class="content">
+<div class="topcontent">
 <div class="imgbox">
 	<div clas="main-image">
 		<div class="image"></div>
@@ -29,9 +32,18 @@
 	<div id="img1"></div>
 	<div id="img3"></div>
 	<div id="img"></div>
-</div><!-- End Image Scroll -->
+</div>
+<!-- End Image Scroll -->
 </div><!-- End image Box -->
 <div class="product-bullets">
+<div class="title"><h1>"Product Title here"</h1></div>
+<p>By:Company Name</p>
+<div class="divider"><span></span></div>
+<span class="price">List Price</span><p>: "Product Price"</p>
+<br />
+<span class="price">Price</span><p>: "Product Price"</p>
+<br />
+<span class="price">Savings</span><p>: "Savings"</p>
 <ul>
 	<li>"Info"</li>
 	<li>"Info"</li>
@@ -39,8 +51,28 @@
 	<li>"Info"</li>
 	<li>"Info"</li>
 </ul>
-</div><!-- End Product Bullet points -->
+</div>
+</div><!-- End top content -->
+
+<!-- End Product Bullet points -->
+<div class="bottom-content">
 <div class="title"><h1>"Product Title HERE"</h1></div><!-- Product Title -->
+<div class="divider"><span></span></div>
+<div class="overview">
+<div class="article">
+<h3>"Product Summary"</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div><!-- End Article -->
+</div><!-- End Overview -->
+<div class="divider"><span></span></div>
+<div class="product-placeholder"></div>
+<div class="title"><h1>"Technical Details HERE"</h1></div><!-- Product Title -->
+<div class="divider"><span></span></div>
 <div class="overview">
 <div class="article">
 <h3>"Product Techniqual Details"</h3>
@@ -52,16 +84,23 @@ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </div><!-- End Article -->
 </div><!-- End Overview -->
-
+<div class="divider"><span></span></div>
+<div class="product-placeholder"></div>
+</div><!-- End bottom content -->
 
 
 
 
 </div><!-- End Content -->
+<div class="footer">
+<p>Your Footer information, Location<a href="#">Email</a></p><p><a href="#">Your Site URL</a>
+</div>
 
 <script type="text/javascript">
 var today = new Date();
 console.log("Todays Date: ",today)
+
+
 
 </script>
 </body>
